@@ -1,5 +1,5 @@
 pkgname=fastfetch
-pkgver=2.49.0
+pkgver=2.50.2
 pkgrel=1
 pkgdesc='Fastfetch is a neofetch-like tool for fetching system information and displaying them in a pretty way'
 arch=('x86_64')
