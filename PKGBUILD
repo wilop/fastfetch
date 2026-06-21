@@ -1,5 +1,5 @@
 pkgname=fastfetch
-pkgver=2.61.0
+pkgver=2.64.0
 pkgrel=1
 pkgdesc='Fastfetch is a neofetch-like tool for fetching system information and displaying them in a pretty way'
 arch=('x86_64')
@@ -8,7 +8,7 @@ license=('MIT')
 depends=('glibc')
 makedepends=('cmake')
 source=("https://codeload.github.com/${pkgname}-cli/${pkgname}/tar.gz/refs/tags/${pkgver}")
-sha256sums=('b05b95bcc0915431cf732382813261497fa4412c3967904c1a9f207d5c946c65')
+sha256sums=('cb2d5a1207c9ca9c6a5a25592c0b6064db2efe41dd88094972be9b7611694d8a')
 
 build() {
  cd "${pkgname}-${pkgver}"
